@@ -223,7 +223,7 @@
     text-shadow: 2px 2px 0 var(--shadow-color);
 }
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
     :root {
         --base-padding: 20;
         --base-content-vertical-padding: 60;
@@ -274,7 +274,7 @@
     }
 }
 
-@media (width >= 1024px) {
+@media (min-width: 1024px) {
     .what .section__article-list {
         grid-template-columns: repeat(3, 1fr);
     }
