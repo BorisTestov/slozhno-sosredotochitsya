@@ -11,3 +11,19 @@
     --bg-image: url("../images/cover-image-dark.png");
     --visibilityi: visible;
 }
+
+@media (prefers-color-scheme: dark) {
+    .page {
+        --base-header-color: #db00ff;
+        --base-text-color: #f1b2ce;
+        --link-shadow-color: #ff0070;
+        --section-header-color: #ff0070;
+        --article-header-color: #000028;
+        --article-bg-color: #ff0070;
+        --button-color: #ff0070;
+        --button-hover-border: #ff007066;
+        --bg-color: #000028;
+        --bg-image: url("../images/cover-image-dark.png");
+        --visibilityi: visible;
+    }
+}

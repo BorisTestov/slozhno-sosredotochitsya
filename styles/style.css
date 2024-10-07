@@ -182,21 +182,21 @@
     font-weight: var(--text-weight);
 }
 
-.article__text .research-link {
+.article__text .link {
     text-decoration: none;
     text-shadow: 2px 2px var(--link-shadow-color);
 }
 
-.article__text .research-link:hover {
+.article__text .link:hover {
     outline: none;
     border-bottom: 1px solid var(--base-text-color);
 }
 
-.article__text .research-link:focus {
+.article__text .link:focus {
     outline: none;
 }
 
-.article__text .research-link:focus-visible {
+.article__text .link:focus-visible {
     outline: 1px solid var(--base-text-color);
 }
 

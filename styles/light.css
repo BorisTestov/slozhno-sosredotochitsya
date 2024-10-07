@@ -11,3 +11,19 @@
     --bg-image: url("../images/cover-image-light.png");
     --visibility: hidden;
 }
+
+@media (prefers-color-scheme: light) {
+    .page {
+        --base-header-color: #ffc2e6;
+        --base-text-color: #353430;
+        --link-shadow-color: #ff8dcb;
+        --section-header-color: #353430;
+        --article-header-color: #353430;
+        --article-bg-color: #ff8dcb;
+        --button-color: #353430;
+        --button-hover-border: #32312d66;
+        --bg-color: #fff1f7;
+        --bg-image: url("../images/cover-image-light.png");
+        --visibility: hidden;
+    }
+}
