@@ -1,5 +1,5 @@
 :root {
-    --base-font: 'IBM Plex Mono', monospace;
+    --base-font: 'IBM Plex Mono';
     --base-font-size: 18px;
     --base-line-height: 130%;
 
@@ -26,4 +26,12 @@
     --bg-image: url("../images/cover-image-dark.png");
 
     --visibility: visible;
+}
+
+@media (min-width: 768px) {
+    :root {
+        --base-padding: 20px;
+        --base-content-vertical-padding: 60px;
+        --sections-gap: 80px;
+    }
 }

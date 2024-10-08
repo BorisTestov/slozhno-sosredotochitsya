@@ -9,7 +9,7 @@
     --button-hover-border: #ff007066;
     --bg-color: #000028;
     --bg-image: url("../images/cover-image-dark.png");
-    --visibilityi: visible;
+    --visibility: visible;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,6 +24,6 @@
         --button-hover-border: #ff007066;
         --bg-color: #000028;
         --bg-image: url("../images/cover-image-dark.png");
-        --visibilityi: visible;
+        --visibility: visible;
     }
 }
